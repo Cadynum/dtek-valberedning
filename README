@@ -1,0 +1,6 @@
+Kompilera:
+lualatex valberedning.tex
+lualatex valberedning.tex
+
+
+(Kör två gånger!)
