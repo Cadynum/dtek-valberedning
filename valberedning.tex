@@ -1,14 +1,13 @@
 \documentclass[unicode, handout, 10pt, t,subsection=true]{beamer}
 \usepackage[swedish]{babel}
 \usepackage{fontspec}
-\usepackage{tikz}
-\usepackage{xifthen}
-\usepackage[iso, swedish]{isodate}
-
+\usepackage{multicol}
 
 \usetheme{Singapore}
 
 \newcommand\nom[1]{{\large \bf #1}\par}
+
+\newenvironment{autoframe}{\begin{frame}{\secname: \subsecname}}{\end{frame}}
 
 \begin{document}
 
@@ -23,14 +22,16 @@
 
 \smallskip
 
-{\large Stora invalsmötet 2012--2013}
+{\large Stora invalsmötet 2013-04-16}
 \end{center}
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Agenda}
-\tableofcontents
+\begin{multicols}{2}
+  \tableofcontents
+\end{multicols}
 \end{frame}
 
 
